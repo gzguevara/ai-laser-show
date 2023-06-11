@@ -14,6 +14,8 @@ The AI workflow uses three open-source Neural Netowrks:
 
 **Nvidia's TLT Landmark Detection Model:** This model is provided by Nvidia, a leading company in AI and Deep Learning technologies. It's designed for precise landmark detection in images, useful for tasks like facial feature detection, object detection, and more, and is optimized for efficient deployment on Nvidia's GPU architectures.
 
+The output of the AI workflow is streamed over network to another device running touchdesigner. Touchdesigner controls the light machines to create a dynamic, intercative, AI-driven light show.
+
 ## Credits
 
 This project relies on the previous works of multiple authors. We would like to extend our gratitude to:

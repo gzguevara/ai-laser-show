@@ -1,7 +1,7 @@
 # AI Light Show Instalation
 
 <p align="center">
-  <img src="teaser.gif" width="800"/>
+  <img src="teaser.gif" width="500"/>
 </p>
 
 ## Introduction

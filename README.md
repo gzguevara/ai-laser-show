@@ -12,7 +12,7 @@ Currently only the AI workflows are ready implemented. In future the light show 
 
 ## AI Video Analytics Workflow
 
-**DexiNed:** (Dense Extreme Inception Network for Edge Detection)[https://github.com/xavysp/DexiNed] is a product of research by Xiaofeng Liu, Joost van de Weijer, and Andrew D. Bagdanov from the Computer Vision Center, Universitat Autònoma de Barcelona. DexiNed is designed for edge detection in images and uses a unique multi-task learning approach to capture and unify the informative features at different scales.
+**DexiNed:** [Dense Extreme Inception Network for Edge Detection](https://github.com/xavysp/DexiNed) is a product of research by Xiaofeng Liu, Joost van de Weijer, and Andrew D. Bagdanov from the Computer Vision Center, Universitat Autònoma de Barcelona. DexiNed is designed for edge detection in images and uses a unique multi-task learning approach to capture and unify the informative features at different scales.
 
 **YuNet:** Developed by the team at Vision Perception and Intelligence Group of Baidu Research, Yunet is a state-of-the-art model designed for real-time holistic edge detection, producing high-quality edge maps with improved accuracy and efficiency.
 

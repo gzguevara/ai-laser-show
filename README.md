@@ -1,6 +1,7 @@
 # AI Light Show
 
 This repository hosts the underlying structure for an interactive AI Light Show. The AI video analytics workflow runs on an NVIDIA Jetson Orin with Jetpack 5.0.2. The device comes pre-installed with Python 3.8, GStreamer, TensorRT, OpenCV with CUDA support, TAO-Converter, and PyTorch for Tegra Devices. The light control workflow can run on any macOS or Windows system, and the light control workflows are handled in TouchDesigner.
+<br> 
 <br>
 <p align="center">
   <img src="teaser.gif" width="500"/>

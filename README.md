@@ -12,11 +12,11 @@ Currently only the AI workflows are ready implemented. In future the light show 
 
 ## AI Video Analytics Workflow
 
-**DexiNed:** [Dense Extreme Inception Network for Edge Detection](https://github.com/xavysp/DexiNed) is a product of research by Xiaofeng Liu, Joost van de Weijer, and Andrew D. Bagdanov from the Computer Vision Center, Universitat Autònoma de Barcelona. DexiNed is designed for edge detection in images and uses a unique multi-task learning approach to capture and unify the informative features at different scales.
+**DexiNed:** [Dense Extreme Inception Network for Edge Detection](https://github.com/xavysp/DexiNed) is currently state-of-the-art in edge detection. This model takes a frame and returns an edge map. In this application, DexiNed serves as the foundation for the light show. The edge map is a 1,x,y image with values ranging from 0 to 255. By adjusting a threshold, t, the thickness of the edges can be changed. Extremely high thresholds result in single points, which together form a silhouette of the user. These single points might be projected by a laser projector.
 
-**YuNet:** Developed by the team at Vision Perception and Intelligence Group of Baidu Research, Yunet is a state-of-the-art model designed for real-time holistic edge detection, producing high-quality edge maps with improved accuracy and efficiency.
+**YuNet:** [YuNet](https://github.com/opencv/opencv_zoo/tree/bfac311b2b30de4648307d9939d2f9e33e012007/models/face_detection_yunet) is a light-weight, fast and accurate face detection model. It also provides 5 landmarks. However, thay are not used in this application.
 
-**Nvidia's TLT Landmark Detection Model:** This model is provided by Nvidia, a leading company in AI and Deep Learning technologies. It's designed for precise landmark detection in images, useful for tasks like facial feature detection, object detection, and more, and is optimized for efficient deployment on Nvidia's GPU architectures.
+**Facial Landmark Estimator (FPENet):** [FPENet](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/fpenet) is a facial keypoints estimator network, which aims to predict the (x,y) location of keypoints for a given input face image. The resulting landmarks are used for driving a laser beam in the finall installation. The given landmarks serve as grid to draw shapes on the fave of an user while the user moves infront of the camera.
 
 ## Light Control Workflow
 

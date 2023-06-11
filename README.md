@@ -4,7 +4,7 @@
 
 This repository hosts the underlying structure for an AI Light Show. The AI workflow run on a NVIDIA Jetson Orin with Jetpack 5.0.2. The light control workflow may run on any MAC OS or windows system. The AI workflows require the Python 3.8, GStreamer, TensorRT, OpenCV with CUDA support. The light control workflows are handeled in touchdesigner.
 
-![AI Light Show Example](example.gif)
+![AI Light Show Example](/home/gzguevara/ai_laser/teaser.gif)
 
 The AI workflow uses three open-source Neural Netowrks:
 

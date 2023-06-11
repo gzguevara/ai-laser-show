@@ -1,15 +1,14 @@
 # AI Light Show Instalation
 
-## Introduction
-
-This repository hosts the underlying structure for an AI Light Show. The AI workflow run on a NVIDIA Jetson Orin with Jetpack 5.0.2. The light control workflow may run on any MAC OS or windows system. The AI workflows require the Python 3.8, GStreamer, TensorRT, OpenCV with CUDA support. The light control workflows are handeled in touchdesigner.
-
 <p align="center">
   <img src="teaser.gif" width="600"/>
 </p>
 
+## Introduction
 
-The AI workflow uses three open-source Neural Netowrks:
+This repository hosts the underlying structure for an AI Light Show. The AI workflow run on a NVIDIA Jetson Orin with Jetpack 5.0.2. The light control workflow may run on any MAC OS or windows system. The AI workflows require the Python 3.8, GStreamer, TensorRT, OpenCV with CUDA support. The light control workflows are handeled in touchdesigner.
+
+## AI Workflow
 
 **DexiNed:** This model is a product of research by Xiaofeng Liu, Joost van de Weijer, and Andrew D. Bagdanov from the Computer Vision Center, Universitat Autònoma de Barcelona. DexiNed is designed for edge detection in images and uses a unique multi-task learning approach to capture and unify the informative features at different scales.
 
@@ -17,7 +16,9 @@ The AI workflow uses three open-source Neural Netowrks:
 
 **Nvidia's TLT Landmark Detection Model:** This model is provided by Nvidia, a leading company in AI and Deep Learning technologies. It's designed for precise landmark detection in images, useful for tasks like facial feature detection, object detection, and more, and is optimized for efficient deployment on Nvidia's GPU architectures.
 
-The output of the AI workflow is streamed over network to another device running touchdesigner. Touchdesigner controls the light machines to create a dynamic, intercative, AI-driven light show.
+## Light Show Workflow
+
+This part is still to be developed! The output of the AI workflow is streamed over network to another device running touchdesigner. Touchdesigner controls the light machines to create a dynamic, intercative, AI-driven light show.
 
 ## Credits
 
